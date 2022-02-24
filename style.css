@@ -1,0 +1,100 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 65px;
+  font-family: Yeseva One;
+  border-left: 4px solid orange;
+  border-image-slice: 1;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.top-section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.half-width img {
+  width: 400px;
+}
+.focused {
+  margin-top: 100px;
+}
+.salmon-color {
+  color: salmon;
+}
+.button {
+  text-decoration: none;
+  background-color: salmon;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 6px;
+}
+.flexible-container {
+  display: flex;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+.single-part {
+  margin-left: 20px;
+  padding: 25px;
+  border-radius: 15px;
+}
+.sky-color-bg {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+.salmon-color-bg {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+.orange-color-bg {
+  background-color: rgba(255, 244, 214, 1);
+}
+.single-part img {
+  width: 50%;
+}
+.flexible-container-2 {
+  margin-top: 60px;
+  margin-right: 60px;
+}
+.text {
+  text-align: left;
+}
+#text-2 {
+  text-align: center;
+}
+#background-img {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: left;
+  background-position-x: 25px;
+}
+#background-img-2 {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 8%;
+  background-position-x: 1092px;
+  background-position-y: 335px;
+}
+#white-color {
+  color: white;
+}
+footer {
+  background-color: rgba(11, 13, 23, 1);
+  margin-bottom: 0;
+}
+footer p {
+  margin-bottom: 0;
+  color: white;
+}
